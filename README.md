@@ -1,4 +1,4 @@
-# The Pathfinders
+# Pathfinder
 
 > *Simplifying everyday campus experiences with accessible technology*
 
