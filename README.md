@@ -1,4 +1,4 @@
-# Pathfinder
+<h1><img height="40" alt="The Pathfinders logo" src="https://github.com/user-attachments/assets/f4916f8a-56fc-4722-a710-fae2e12b1f27" align="top" /> Pathfinder</h1>
 
 > *Simplifying everyday campus experiences with accessible technology*
 
