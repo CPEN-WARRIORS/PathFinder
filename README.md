@@ -94,12 +94,15 @@ To address this issue, our team plans to develop an **outdoor and indoor** navig
 | No starting location selected | Users will be prompted to select a starting location before generating a route. |
 | No matching search results | The sidebar will display a message indicating that no matching buildings or classrooms were found. |
 
-### Mockup User Interface
+### Mockup User Interface 
 
 | Search Sidebar | Map View | 
 |:---:|:---:|
 | <img height="360" alt="Search sidebar" src="https://github.com/user-attachments/assets/7a4834aa-3ae4-4bd4-a24b-455b4d9d597f" /> | <img height="360" alt="Leaflet map view" src="https://github.com/user-attachments/assets/2659cdb8-46f8-4fc8-8ff6-3a1ad883660b" /> 
 
-| Classroom Wayfinding | 
-|:---:|
-| <img height="360" alt="clasroom-walks" src=".\classroom-wayfinder.jpeg" />
+&nbsp;
+
+| Routing Example | Location Request Example |
+|:---:|:---:|
+| <img width="376" height="272" alt="Routing Example" src="https://github.com/user-attachments/assets/792984d7-5c8a-468c-8aaf-a26cce66a60b" /> | <img width="460" height="288" alt="Location Request Example" src="https://github.com/user-attachments/assets/151baa08-975a-4446-bba8-34ce4473db87" /> |
+
