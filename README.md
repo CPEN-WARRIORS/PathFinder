@@ -34,6 +34,18 @@ New students shouldn't have to spend unnecessary time searching for their classr
 
 ---
 
+### Evidence
+
+The following Reddit posts from the UBC subreddit highlight difficulties students have experienced when navigating the campus and finding classrooms.
+
+| Source | Student Issue |
+|---|---|
+| [Looking for someone to show me around campus](https://www.reddit.com/r/UBC/comments/pg3uy3/looking_for_someone_to_show_me_around_campus/) | A new student voices their concerns about finding their way around campus and asks for help |
+| [Need help finding a study hall for exam](https://www.reddit.com/r/UBC/comments/revkjd/need_help_finding_a_study_hall_for_exam/) | A student struggles to locate their exam room despite already being inside the correct building. |
+| [Bro where is this room](https://www.reddit.com/r/UBC/comments/1jyl7zd/bro_where_is_this_room/) | A student struggles to locate a specific room inside IKB |
+
+---
+
 ## Solution
 
 To address this issue, our team plans to develop an **outdoor and indoor** navigation website that provides directions not only to buildings but also to **individual classrooms within those buildings**. Using Leaflet, an open-source mapping library, we will create an interactive map of UBC Vancouver and integrate existing UBC building floor plans to enable indoor navigation. Users will be able to search for buildings and classrooms using their names or abbreviations, then receive walking directions from their current location to their destination, all the way to the classroom door.
@@ -71,6 +83,16 @@ To address this issue, our team plans to develop an **outdoor and indoor** navig
 ### 5. Adaptive Screen Sizes
 
 - Website will resize automatically based on the user’s device size that will be grabbed from the browser’s settings.
+
+### Error Handling
+
+| Error | Expected Behaviour |
+|---|---|
+| Location permission denied | Users will be prompted to manually select their starting location on the map |
+| Unable to determine current location | An error message will appear, asking users to try again or manually select a starting location |
+| Walking route could not be generated | An error message will inform users that no walking route is available for their selected destination |
+| No starting location selected | Users will be prompted to select a starting location before generating a route. |
+| No matching search results | The sidebar will display a message indicating that no matching buildings or classrooms were found. |
 
 ### Mockup User Interface
 
