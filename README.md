@@ -44,11 +44,33 @@ To address this issue, our team plans to develop an **outdoor and indoor** navig
 - **Building and Classroom Search** - Sidebar to enter classroom and building names with a dropdown showing relevant options
 - **Mapping Classroom Walks** - Provide a walking route from the user’s location to their destination all the way until their classroom door.
 
-### Dependencies
+## User Interactions
 
-- **Leaflet** - Open source Javascript library used to render and interact the campus map
-- **UBCGeodata repository** - Provides geospatial data for buildings around the campus
-- **Flask / Django (TBD)** - Framework used to handle frontend and backend operations
+### 1. Searching For a Destination
+
+- Users enter a building name or abbreviation into a search section located in the sidebar.
+- A dropdown menu will display relevant buildings and classrooms as the user types.
+- If no building is found, the sidebar will show a message indicating to the user that there were no results.
+
+### 2. Selecting a Starting Location
+
+- Users will be prompted, “Use My location”, to automatically determine their current location using browser location services.
+- Once a location is selected, a marker will indicate to the user their starting position.
+- Written and audible instructions will be available.
+
+### 3. Navigating to a Destination
+
+- After selecting a starting location and destination, users can click a button to generate a walking route.
+- A path will be highlighted on the map.
+
+### 4. Changing Navigation
+
+- Users would also be able to click and interact with the map to pan, zoom, and select locations on the map.
+- Users will be able to click on a button that ends their current journey.
+
+### 5. Adaptive Screen Sizes
+
+- Website will resize automatically based on the user’s device size that will be grabbed from the browser’s settings.
 
 ### Mockup User Interface
 
