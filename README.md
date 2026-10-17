@@ -1,6 +1,6 @@
 <h1><img height="40" alt="The Pathfinders logo" src="https://github.com/user-attachments/assets/f4916f8a-56fc-4722-a710-fae2e12b1f27" align="top" /> Pathfinder</h1>
 
-> *Simplifying everyday campus experiences with accessible technology*
+> *To make every classroom at UBC Vancouver easy to find, one step at a time. *
 
 ## Team Members
 
@@ -14,34 +14,35 @@
 
 ## Theme
 
-Campus Life
+To make every classroom at UBC Vancouver easy to find, one step at a time.
 
 ## Mission Statement
 
-Simplifying everyday campus experiences with accessible technology
+Simplifying everyday campus experiences with navigation
 
 ---
 
 ## Problem
 
-UBC Vancouver is one of the largest campuses in Canada, spanning over 400 hectares with hundreds of buildings. For new students that arrive every September, this transition can feel overwhelming at times especially for those who have traveled far from home.
+UBC Vancouver is one of Canada's largest university campuses, spanning over 400 hectares with hundreds of buildings. Finding classrooms and navigating campus can be particularly challenging for students unfamiliar with the area.
 
-Finding classrooms and navigating the campus can be particularly hard for these unfamiliar students. Class schedules often list locations using building abbreviations and room numbers such as “ICCS 008”. For someone new to campus, this means nothing to them and it just makes it more difficult for them to find their way around especially with some of the layouts UBC buildings have. Although UBC provides their own navigation website, buildings are cluttered and paths are unclear, adding little to no help to these new students.
+Class schedules often list locations using building abbreviations and room numbers, such as “ICCS 008.” A student new to campus might open a navigation app to find the building, but what happens once they enter the main lobby? What if the app leads them to the back entrance? What about buildings that are interconnected?
 
-This challenge becomes even more frustrating when buildings have the same name or multiple entrances that lead you to completely different areas. New students shouldn’t be spending unnecessary time searching for their classrooms when they can spend that time instead meeting new people and experiencing campus life.
+Navigation apps, such as google maps or UBC Wayfinding, only offers directions between buildings, not between individual classrooms inside of the buildings. While floor maps are publicly available, they still leave students to figure out the route to their classrooms themselves. 
+
+New students shouldn't have to spend unnecessary time searching for their classrooms when they could instead spend that time meeting new people, exploring campus, and experiencing university life.
 
 ---
 
 ## Solution
 
-To address this longstanding issue, our team plans to develop a website to help guide students to their classrooms more easily. Our team will leverage Leaflet, an open source library, to render an interactive map of UBC’s Vancouver campus. Users will be able to search for buildings and classrooms using their abbreviations and then a path will be displayed to them based on their current location.
+To address this issue, our team plans to develop an **outdoor and indoor** navigation website that provides directions not only to buildings but also to **individual classrooms within those buildings**. Using Leaflet, an open-source mapping library, we will create an interactive map of UBC Vancouver and integrate existing UBC building floor plans to enable indoor navigation. Users will be able to search for buildings and classrooms using their names or abbreviations, then receive walking directions from their current location to their destination, all the way to the classroom door.
 
 ### Core Features
 
 - **Interactive Campus Map** - Display an interactive map of UBC Vancouver using Leaflet
 - **Building and Classroom Search** - Sidebar to enter classroom and building names with a dropdown showing relevant options
-- **Walking Directions** - Provide a walking route based on the user’s location and their destination
-- **Building Information** - Display relevant information about the building such as number of floors
+- **Walking Directions** - Provide a walking route from the user’s location to their destination all the way until their classroom door.
 
 ### Dependencies
 
