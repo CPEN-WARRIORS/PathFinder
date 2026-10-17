@@ -73,7 +73,7 @@ To address this issue, our team plans to develop an **outdoor and indoor** navig
 ### 3. Navigating to a Destination
 
 - After selecting a starting location and destination, users can click a button to generate a walking route.
-- A path will be highlighted on the map.
+- A path will be highlighted on the map to the classroom / building the user entered
 
 ### 4. Changing Navigation
 
