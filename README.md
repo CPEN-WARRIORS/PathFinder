@@ -1,6 +1,6 @@
 <h1><img height="40" alt="The Pathfinders logo" src="https://github.com/user-attachments/assets/f4916f8a-56fc-4722-a710-fae2e12b1f27" align="top" /> Pathfinder</h1>
 
-> *To make every classroom at UBC Vancouver easy to find, one step at a time. *
+> To make every classroom at UBC Vancouver easy to find, one step at a time. 
 
 ## Team Members
 
@@ -84,6 +84,14 @@ To address this issue, our team plans to develop an **outdoor and indoor** navig
 
 - Website will resize automatically based on the user’s device size that will be grabbed from the browser’s settings.
 
+### 6. Indoor Classroom Guidance
+
+- After arriving at the building destination, users will be able to view information about their selected classroom.
+- The website will display the classroom’s floor number and there will be written directions to help users locate a room in the building.
+- Users will be able to click a button to have the instructions read aloud.
+- Indoor directions will be provided for supported classrooms using predetermined instructions. Supported classrooms will be common rooms.
+- For classrooms without available indoor directions, the website will display the building location and any available classroom information.
+  
 ### Error Handling
 
 | Error | Expected Behaviour |
