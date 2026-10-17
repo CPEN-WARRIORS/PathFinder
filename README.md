@@ -40,9 +40,9 @@ To address this issue, our team plans to develop an **outdoor and indoor** navig
 
 ### Core Features
 
-- **Interactive Campus Map** - Display an interactive map of UBC Vancouver using Leaflet
+- **Interactive Campus Map and Path Finder** - Display an interactive map of UBC Vancouver using Leaflet
 - **Building and Classroom Search** - Sidebar to enter classroom and building names with a dropdown showing relevant options
-- **Walking Directions** - Provide a walking route from the user’s location to their destination all the way until their classroom door.
+- **Mapping Classroom Walks** - Provide a walking route from the user’s location to their destination all the way until their classroom door.
 
 ### Dependencies
 
@@ -52,6 +52,10 @@ To address this issue, our team plans to develop an **outdoor and indoor** navig
 
 ### Mockup User Interface
 
-| Search Sidebar | Map View |
+| Search Sidebar | Map View | 
 |:---:|:---:|
-| <img height="360" alt="Search sidebar" src="https://github.com/user-attachments/assets/7a4834aa-3ae4-4bd4-a24b-455b4d9d597f" /> | <img height="360" alt="Leaflet map view" src="https://github.com/user-attachments/assets/2659cdb8-46f8-4fc8-8ff6-3a1ad883660b" /> |
+| <img height="360" alt="Search sidebar" src="https://github.com/user-attachments/assets/7a4834aa-3ae4-4bd4-a24b-455b4d9d597f" /> | <img height="360" alt="Leaflet map view" src="https://github.com/user-attachments/assets/2659cdb8-46f8-4fc8-8ff6-3a1ad883660b" /> 
+
+| Classroom Wayfinding | 
+|:---:|
+| <img height="360" alt="clasroom-walks" src=".\classroom-wayfinder.jpeg" />
